@@ -1,0 +1,41 @@
+*/ Q2. Write a recursive function to print numbers from 1 to n in JavaScript.
+       Please upload your code to github and provide the link as well*/
+
+CODE:
+
+<script>
+ 
+let N = 20;
+let n = 1
+ 
+functionfun1()
+{
+    if (n <= N)
+    {
+        document.write( n+" ");
+        n++;
+        fun2();
+    }
+    else
+    {
+        return;
+    }
+}
+ 
+functionfun2()
+{
+    if (n <= N)
+    {
+        document.write(n+" ");
+        n++;
+        fun1();
+    }
+    else
+    {
+        return;
+    }
+}
+ 
+fun1();
+  
+</script>
